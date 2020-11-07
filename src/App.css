@@ -1,38 +1,90 @@
-.App {
+.brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: auto 0;
   text-align: center;
+  color: #35323e;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.brand:hover {
+  color: #35323e;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.my-margin {
+  margin: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container {
+  max-width: 1000;
+  margin: 2rem;
+}
+
+.my-nav-items {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #9e9aa7;
+  text-align: center;
+  margin: auto 0;
+}
+
+.my-nav-items a {
+  color: #9e9aa7;
+  text-decoration: none;
+}
+
+.my-nav-items a:hover {
+  color: #35323e;
+  text-decoration: none;
+}
+
+.my-nav-items-sm {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  margin: auto 0;
+}
+
+.my-nav-items-sm a {
+  color: white;
+  text-decoration: none;
+}
+
+.my-nav-items-sm a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.custom-card {
+  background-color: #3b3054;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+.divider {
+  height: 1px;
+  background-color: white;
+  width: 80%;
+}
+
+.blue-oval {
+  border-radius: 2rem;
+  color: white;
+  background-color: #2acfcf;
+  padding: 0.7rem 0.5rem;
+}
+
+.blue-oval a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-bars {
+  margin: auto;
+  font-size: 6rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */

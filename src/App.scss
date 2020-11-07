@@ -1,0 +1,106 @@
+ $Cyan: hsl(180, 66%, 49%);
+ $DarkViolet: hsl(257, 27%, 26%);
+ $Red: hsl(0, 87%, 67%);
+ $Gray: hsl(0, 0%, 75%);
+ $GrayishViolet : hsl(257, 7%, 63%);
+ $VeryDarkBlue: hsl(255, 11%, 22%);
+ $VeryDarkViolet: hsl(260, 8%, 14%);
+
+
+.brand{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: auto 0;
+  text-align: center;
+  color:$VeryDarkBlue;
+}
+
+.brand:hover{
+  color:$VeryDarkBlue;
+  text-decoration: none;
+}
+
+.my-margin{
+  margin:2rem;
+}
+
+.container{
+  max-width: 1000;
+  margin:2rem;
+}
+
+// .bg-red{
+//   background-color: red;
+// }
+
+// .bg-yellow{
+//   background-color: aqua;
+
+// }
+
+// .bg-green{
+//   background-color: green;
+// }
+
+.my-nav-items{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color:$GrayishViolet;
+  text-align: center;
+  margin: auto 0;
+  a{
+    color:$GrayishViolet;
+    text-decoration: none;
+  }
+  a:hover{
+    color:$VeryDarkBlue;
+    text-decoration: none;
+  }
+}
+
+.my-nav-items-sm{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color:white;
+  text-align: center;
+  margin: auto 0;
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  a:hover{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+.custom-card{
+  background-color: $DarkViolet;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+.divider{
+  height: 1px;
+  background-color:white;
+  width: 80%;
+}
+
+.blue-oval{
+  border-radius: 2rem;
+  color:white;
+  background-color: $Cyan;
+  padding: 0.7rem 0.5rem;
+  a{
+    color:white
+  }
+}
+
+.fa-bars{
+  margin:auto;
+  font-size: 6rem;
+}
