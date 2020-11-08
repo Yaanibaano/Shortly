@@ -76,7 +76,10 @@
   border-radius: 2rem;
   color: white;
   background-color: #2acfcf;
-  padding: 0.7rem 0.5rem;
+  padding: 0.7rem 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .blue-oval a {
@@ -86,5 +89,115 @@
 .fa-bars {
   margin: auto;
   font-size: 6rem;
+}
+
+.hero-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  margin: auto 0;
+  text-align: left;
+  color: #35323e;
+}
+
+.hero {
+  margin-top: 3rem;
+}
+
+.hero-padding {
+  margin: auto;
+}
+
+.hero-sub-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.4rem;
+  color: #9e9aa7;
+}
+
+.pre-footer-bg {
+  background-color: #3b3054;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.pre-footer-bg h1 {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.pre-footer-bg .blue-oval {
+  margin: auto;
+}
+
+.pre-footer-bg .content {
+  margin-top: 3rem;
+}
+
+.footer {
+  background-color: #232127;
+}
+
+.footer .footer-brand {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.footer .footer-brand:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .list-header {
+  color: white;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.footer ul {
+  padding-left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer li {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  list-style: none;
+  margin-bottom: 0.9rem;
+}
+
+.footer li a {
+  color: #9e9aa7;
+}
+
+.footer li a:hover {
+  text-decoration: none;
+  color: #2acfcf;
+}
+
+.footer img {
+  margin: 1rem auto auto auto;
+  color: green;
+}
+
+@media all and (max-width: 1000px) {
+  li {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=App.css.map */

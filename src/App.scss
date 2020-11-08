@@ -30,19 +30,6 @@
   margin:2rem;
 }
 
-// .bg-red{
-//   background-color: red;
-// }
-
-// .bg-yellow{
-//   background-color: aqua;
-
-// }
-
-// .bg-green{
-//   background-color: green;
-// }
-
 .my-nav-items{
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -94,13 +81,119 @@
   border-radius: 2rem;
   color:white;
   background-color: $Cyan;
-  padding: 0.7rem 0.5rem;
+  padding: 0.7rem 2rem;
   a{
     color:white
   }
+  width: fit-content;
 }
 
 .fa-bars{
   margin:auto;
   font-size: 6rem;
+}
+
+.hero-text{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  margin: auto 0;
+  text-align:left;
+  color:$VeryDarkBlue;
+}
+
+
+.hero{
+  margin-top: 3rem;
+}
+
+.hero-padding{
+  margin:auto
+}
+
+
+.hero-sub-text{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.4rem;
+  color:$GrayishViolet;
+}
+
+.pre-footer-bg{
+  background-color: $DarkViolet;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  display: block;
+  h1{
+    margin-top:20px ;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  .blue-oval{
+    margin: auto;
+  }
+  .content{
+    margin-top:3rem ;
+  }
+}
+
+.footer{
+
+  background-color: $VeryDarkViolet;
+  .footer-brand{
+    color:white;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+  }
+  .footer-brand:hover{
+    text-decoration: none;
+    color:white
+  }
+
+  .list-header{
+    color:white;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  ul{
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  li{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    list-style: none;
+    margin-bottom: 0.9rem;
+    a{
+      color:$GrayishViolet;
+    }
+    a:hover{
+      text-decoration: none;
+      color:$Cyan;
+    }
+  }
+
+  img{
+    // height: 2rem;
+    margin: 1rem auto auto auto;
+    color: green;
+  }
+}
+
+@media all and (max-width:1000px){
+  li{
+    text-align: center;
+  }
 }
