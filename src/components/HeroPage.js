@@ -1,9 +1,10 @@
 import React from "react";
+import MainForm from "./Mini-Components";
 import "../App.css"
 
 export const Hero = ()=>{
     return(
-        <div className="container">
+        <div className="container mb-5">
         <div className="row hero">
             <div className="col-12 col-lg-6 hero-padding">
                 <h1 className="hero-text">More than just shorter links</h1>

@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import MyNavBar from "./NavBar"
 import {Hero} from "./HeroPage"
-import {PreFooter,Footer} from "./Footer"
+import {Footer} from "./Footer"
+import MainForm,{CustomCards,ShortLinkListItem} from "./Mini-Components";
+import {MainBody} from "./Body"
 import "../App.css"
 
 export const MainC = () => {
@@ -14,11 +16,12 @@ class MainComponent extends Component{
     render(){
         return(
             <React.Fragment>
+                <div className="mybody ml-4 ml-lg-0">
                 <MyNavBar></MyNavBar>
                 <Hero></Hero>
-                
-                <Footer></Footer>
-                
+                </div> 
+                <MainBody></MainBody>
+                <Footer></Footer>         
             </React.Fragment>
         );
     }

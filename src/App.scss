@@ -1,199 +1,361 @@
- $Cyan: hsl(180, 66%, 49%);
- $DarkViolet: hsl(257, 27%, 26%);
- $Red: hsl(0, 87%, 67%);
- $Gray: hsl(0, 0%, 75%);
- $GrayishViolet : hsl(257, 7%, 63%);
- $VeryDarkBlue: hsl(255, 11%, 22%);
- $VeryDarkViolet: hsl(260, 8%, 14%);
+$Cyan: hsl(180, 66%, 49%);
+$DarkViolet: hsl(257, 27%, 26%);
+$Red: hsl(0, 87%, 67%);
+$Gray: hsl(0, 0%, 75%);
+$GrayishViolet: hsl(257, 7%, 63%);
+$VeryDarkBlue: hsl(255, 11%, 22%);
+$VeryDarkViolet: hsl(260, 8%, 14%);
+$Grayme:rgb(239,241,247);
 
-
-.brand{
-  font-family: 'Poppins', sans-serif;
+.brand {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
   margin: auto 0;
   text-align: center;
-  color:$VeryDarkBlue;
+  color: $VeryDarkBlue;
 }
 
-.brand:hover{
-  color:$VeryDarkBlue;
+.brand:hover {
+  color: $VeryDarkBlue;
   text-decoration: none;
 }
 
-.my-margin{
-  margin:2rem;
+.my-margin {
+  margin: 2rem;
 }
 
-.container{
+.container {
   max-width: 1000;
-  margin:2rem;
+  margin: 2rem;
 }
 
-.my-nav-items{
-  font-family: 'Poppins', sans-serif;
+.my-nav-items {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1rem;
-  color:$GrayishViolet;
+  color: $GrayishViolet;
   text-align: center;
   margin: auto 0;
-  a{
-    color:$GrayishViolet;
+  a {
+    color: $GrayishViolet;
     text-decoration: none;
   }
-  a:hover{
-    color:$VeryDarkBlue;
+  a:hover {
+    color: $VeryDarkBlue;
     text-decoration: none;
   }
 }
 
-.my-nav-items-sm{
-  font-family: 'Poppins', sans-serif;
+.my-nav-items-sm {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1rem;
-  color:white;
+  color: white;
   text-align: center;
   margin: auto 0;
-  a{
-    color:white;
+  a {
+    color: white;
     text-decoration: none;
   }
-  a:hover{
-    color:white;
+  a:hover {
+    color: white;
     text-decoration: none;
   }
 }
 
-.custom-card{
+.custom-card {
   background-color: $DarkViolet;
   padding: 1rem;
   margin-top: 2rem;
   border-radius: 1rem;
 }
 
-.divider{
+.divider {
   height: 1px;
-  background-color:white;
+  background-color: white;
   width: 80%;
 }
 
-.blue-oval{
+.blue-oval {
   border-radius: 2rem;
-  color:white;
+  color: white;
   background-color: $Cyan;
   padding: 0.7rem 2rem;
-  a{
-    color:white
+  a {
+    color: white;
   }
   width: fit-content;
 }
 
-.fa-bars{
-  margin:auto;
+.fa-bars {
+  margin: auto;
   font-size: 6rem;
 }
 
-.hero-text{
-  font-family: 'Poppins', sans-serif;
+.hero-text {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 4rem;
   margin: auto 0;
-  text-align:left;
-  color:$VeryDarkBlue;
+  text-align: left;
+  color: $VeryDarkBlue;
 }
 
-
-.hero{
+.hero {
   margin-top: 3rem;
 }
 
-.hero-padding{
-  margin:auto
+.hero-padding {
+  margin: auto;
 }
 
-
-.hero-sub-text{
-  font-family: 'Poppins', sans-serif;
+.hero-sub-text {
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
   padding-top: 1rem;
   padding-bottom: 1.4rem;
-  color:$GrayishViolet;
+  color: $GrayishViolet;
 }
 
-.pre-footer-bg{
+.pre-footer-bg {
   background-color: $DarkViolet;
   height: 100px;
   background-repeat: no-repeat;
-  background-size:cover ;
+  background-size: cover;
   display: block;
-  h1{
-    margin-top:20px ;
+  h1 {
+    margin-top: 20px;
     color: white;
     text-align: center;
     font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
   }
-  .blue-oval{
+  .blue-oval {
     margin: auto;
   }
-  .content{
-    margin-top:3rem ;
+  .content {
+    margin-top: 3rem;
   }
 }
 
-.footer{
-
+.footer {
   background-color: $VeryDarkViolet;
-  .footer-brand{
-    color:white;
+  .footer-brand {
+    color: white;
     font-size: 2rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
   }
-  .footer-brand:hover{
+  .footer-brand:hover {
     text-decoration: none;
-    color:white
+    color: white;
   }
 
-  .list-header{
-    color:white;
+  .list-header {
+    color: white;
     font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     margin-bottom: 1.5rem;
   }
 
-  ul{
+  ul {
     padding-left: 0;
     justify-content: center;
   }
 
-  li{
+  li {
     font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     list-style: none;
     margin-bottom: 0.9rem;
-    a{
-      color:$GrayishViolet;
+    a {
+      color: $GrayishViolet;
     }
-    a:hover{
+    a:hover {
       text-decoration: none;
-      color:$Cyan;
+      color: $Cyan;
     }
   }
 
-  img{
+  img {
     // height: 2rem;
     margin: 1rem auto auto auto;
     color: green;
   }
 }
 
-@media all and (max-width:1000px){
-  li{
+.mybody {
+  // background-color: $Gray;
+}
+
+.main-custom-outline {
+  position: relative;
+  padding-top: 0.01rem;
+  display: block;
+  width: 300px;
+  // background-color: hotpink;
+  .card-custom-image {
+    background-color: $DarkViolet;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    padding: 1.5rem;
+    border-radius: 3rem;
+  }
+  .custom-card {
+    width: 333px;
+    margin-top: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+    background-color: white;
+    .card-heading {
+      h2 {
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+      }
+    }
+    .card-description {
+      p {
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        color: $GrayishViolet;
+      }
+    }
+  }
+}
+
+.linkListCard {
+  background-color: pink;
+  border-radius: 1rem;
+  .olink {
+    // background-color: $Gray;
+    p {
+      font-size: 1rem;
+      // margin:1rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      color: $VeryDarkViolet;
+    }
+  }
+  .slink {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: auto;
+    color: $Cyan;
+  }
+  button {
+    background-color: $Cyan;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 0.5rem 2rem;
+    margin: auto;
+    border: none;
+  }
+
+  button:hover {
+    background-color: $Cyan;
+    opacity: 0.7;
+  }
+}
+
+.bg-blue {
+  background-color: red;
+}
+
+.mainForm {
+  background-color: $DarkViolet;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  .form-control::-webkit-input-placeholder {
+    color: $GrayishViolet;
+  } /* WebKit, Blink, Edge */
+  .form-control:-moz-placeholder {
+    color:$GrayishViolet;
+  } /* Mozilla Firefox 4 to 18 */
+  .form-control::-moz-placeholder {
+    color:$GrayishViolet;
+  } /* Mozilla Firefox 19+ */
+  .form-control:-ms-input-placeholder {
+    color:$GrayishViolet;
+  } /* Internet Explorer 10-11 */
+  .form-control::-ms-input-placeholder {
+    color: $GrayishViolet;
+  }
+  .form-control {
+    padding: 1.94rem 2rem;
+    font-size: 1.5rem !important;
+    color: $VeryDarkViolet !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 500 !important;
+  }
+  .form-control:focus {
+    border-color:$Cyan;
+    border-style: solid;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px $Cyan;
+  }
+  button {
+    background-color: $Cyan;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 1rem 3rem;
+    margin: auto;
+    border: none;
+  }
+  button:hover {
+    background-color: $Cyan;
+    opacity: 0.7;
+  }
+}
+
+.mainBody{
+  position: relative;
+  height: 500px;
+  .myform{
+    z-index: 2;
+    position: relative;
+  }
+  .sub{
+    background-color: $Grayme;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    z-index:0;
+    top:100px;
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  li {
     text-align: center;
+  }
+
+  .olink {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 75%);
+  }
+}
+
+
+@media all and (min-width:1000px){
+  .myform{
+    position:absolute;
+    min-width: 1200px;
+    width: 100%;
   }
 }

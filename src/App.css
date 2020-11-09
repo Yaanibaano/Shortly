@@ -1,5 +1,5 @@
 .brand {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
   margin: auto 0;
@@ -22,7 +22,7 @@
 }
 
 .my-nav-items {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1rem;
   color: #9e9aa7;
@@ -41,7 +41,7 @@
 }
 
 .my-nav-items-sm {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1rem;
   color: white;
@@ -92,7 +92,7 @@
 }
 
 .hero-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 4rem;
   margin: auto 0;
@@ -109,7 +109,7 @@
 }
 
 .hero-sub-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
   padding-top: 1rem;
@@ -130,7 +130,7 @@
   color: white;
   text-align: center;
   font-size: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
@@ -149,7 +149,7 @@
 .footer .footer-brand {
   color: white;
   font-size: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
@@ -161,7 +161,7 @@
 .footer .list-header {
   color: white;
   font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
@@ -175,7 +175,7 @@
 
 .footer li {
   font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   list-style: none;
   margin-bottom: 0.9rem;
@@ -195,9 +195,182 @@
   color: green;
 }
 
+.main-custom-outline {
+  position: relative;
+  padding-top: 0.01rem;
+  display: block;
+  width: 300px;
+}
+
+.main-custom-outline .card-custom-image {
+  background-color: #3b3054;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  padding: 1.5rem;
+  border-radius: 3rem;
+}
+
+.main-custom-outline .custom-card {
+  width: 333px;
+  margin-top: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: white;
+}
+
+.main-custom-outline .custom-card .card-heading h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.main-custom-outline .custom-card .card-description p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #9e9aa7;
+}
+
+.linkListCard {
+  background-color: pink;
+  border-radius: 1rem;
+}
+
+.linkListCard .olink p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #232127;
+}
+
+.linkListCard .slink {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin: auto;
+  color: #2acfcf;
+}
+
+.linkListCard button {
+  background-color: #2acfcf;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding: 0.5rem 2rem;
+  margin: auto;
+  border: none;
+}
+
+.linkListCard button:hover {
+  background-color: #2acfcf;
+  opacity: 0.7;
+}
+
+.bg-blue {
+  background-color: red;
+}
+
+.mainForm {
+  background-color: #3b3054;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  /* WebKit, Blink, Edge */
+  /* Mozilla Firefox 4 to 18 */
+  /* Mozilla Firefox 19+ */
+  /* Internet Explorer 10-11 */
+}
+
+.mainForm .form-control::-webkit-input-placeholder {
+  color: #9e9aa7;
+}
+
+.mainForm .form-control:-moz-placeholder {
+  color: #9e9aa7;
+}
+
+.mainForm .form-control::-moz-placeholder {
+  color: #9e9aa7;
+}
+
+.mainForm .form-control:-ms-input-placeholder {
+  color: #9e9aa7;
+}
+
+.mainForm .form-control::-ms-input-placeholder {
+  color: #9e9aa7;
+}
+
+.mainForm .form-control {
+  padding: 1.94rem 2rem;
+  font-size: 1.5rem !important;
+  color: #232127 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.mainForm .form-control:focus {
+  border-color: #2acfcf;
+  border-style: solid;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #2acfcf;
+          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #2acfcf;
+}
+
+.mainForm button {
+  background-color: #2acfcf;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 1rem 3rem;
+  margin: auto;
+  border: none;
+}
+
+.mainForm button:hover {
+  background-color: #2acfcf;
+  opacity: 0.7;
+}
+
+.mainBody {
+  position: relative;
+  height: 500px;
+}
+
+.mainBody .myform {
+  z-index: 2;
+  position: relative;
+}
+
+.mainBody .sub {
+  background-color: #eff1f7;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 100px;
+  margin: 0;
+}
+
 @media all and (max-width: 1000px) {
   li {
     text-align: center;
+  }
+  .olink {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #bfbfbf;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .myform {
+    position: absolute;
+    min-width: 1200px;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=App.css.map */
