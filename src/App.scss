@@ -25,9 +25,36 @@ $Grayme:rgb(239,241,247);
 //   margin: 2rem;
 // }
 
-.container {
-  max-width: 1000;
-  margin: 2rem;
+.my-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin:2rem;
+  width: 500px;
+}
+
+@media (min-width: 768px) {
+  .my-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .my-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .my-container {
+    width: 1170px;
+  }
+}
+
+.container1{
+  margin:2rem;
+  max-width: 1000px;
+}
+
+.myfontsize{
+  font-size: 1.4rem;
 }
 
 .my-nav-items {

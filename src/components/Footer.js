@@ -27,7 +27,7 @@ export const Footer = () =>{
     return(
         <div>
         <PreFooter />
-        <div className="footer row justify-content-center">
+        <div className="footer row justify-content-center pt-5 pb-5">
             <div className = "row justify-content-between container">
                 <div className="col-12 col-lg-2 row justify-content-center m-lg-0 ml-2">
                     <a href="/" className="footer-brand  mr-3">Shortly</a>

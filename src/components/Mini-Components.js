@@ -30,7 +30,7 @@ const ShortLinkListItemElement = ({originalLink,shortendLink,copied}) =>{
     const [isCopied,copiedState] = useState(false)
     
     return (      
-        <div className="row linkListCard container mx-lg-auto mx-auto w-75 mb-2">
+        <div className="row linkListCard container mx-lg-auto mx-auto w-75 mb-4">
             <div className="col-lg-7 col-12 olink row m-0">
                 <div className="mt-3 ml-lg-0">   
                     <p>{originalLink}</p>
@@ -110,7 +110,7 @@ class MainForm extends Component{
             
         }
 
-        if(this.state.link==""&&isLink(this.state.link)){
+        if(this.state.link == ""&&isLink(this.state.link)){
             console.log("Failed")
             return ;
         }
@@ -140,7 +140,7 @@ class MainForm extends Component{
     render(){
         const err = this.validate()
         return(
-            <div className="row justify-content-center mx-lg-0 mx-4">
+            <div className="row justify-content-center mx-lg-0 mx-4 mb-5">
                 <Form className="row container justify-content-center mainForm py-5" style={sectionStyle}  onSubmit={this.handleSubmit}>
                     <div className="col-lg-9 col-12 row m-lg-auto justify-content-center mb-4">
                         <Input invalid={err!=""} name="link" onBlur={this.handleBlur("testy")} onChange={this.handleChange} className="form-control" placeholder="Shorten a link here..."></Input>                       
