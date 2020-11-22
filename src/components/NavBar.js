@@ -65,7 +65,7 @@ class MyNavBar extends Component {
                             <a href="/">Resources</a>
                         </div>
                     </div>
-                    <div className="col-3 row bg-green d-lg-flex d-none">
+                    <div className="col-3 row d-lg-flex d-none">
                         <div className="col-5 my-nav-items">
                             <a href="/">Log-in</a>
                         </div>
